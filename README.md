@@ -27,7 +27,7 @@ Vertex and fragment shaders are typically used together in pairs, as a *shader p
 	
 	To get more interesting color bands, you can color the fragment differently depending on how many iterating it takes for the values to leave the radius.  Here's an example of what the texture might look like:
 
-    ![Mandelbrot](https://github.com/amolpatel/Shaders/blob/master/img/julia-z2.png)
+    ![Mandelbrot](https://github.com/amolpatel/Shaders/blob/master/img/mandelbrot-image.png)
 	
   2. Julia set fractal ```z(n+1) = z(n)^2 + c, where c = (0, sin(time))```
 	
