@@ -27,7 +27,7 @@ Vertex and fragment shaders are typically used together in pairs, as a *shader p
 	
 	To get more interesting color bands, you can color the fragment differently depending on how many iterating it takes for the values to leave the radius.  Here's an example of what the texture might look like:
 
-    ![Mandelbrot](https://github.gatech.edu/pages/cs3451f15/a4/img/mandelbrot-image.png)
+    ![Mandelbrot](https://github.com/amolpatel/Shaders/blob/master/img/julia-z2.png)
 	
   2. Julia set fractal ```z(n+1) = z(n)^2 + c, where c = (0, sin(time))```
 	
@@ -35,7 +35,7 @@ Vertex and fragment shaders are typically used together in pairs, as a *shader p
 	
 	To get the time, you can pass it in as a uniform variable. As a result you will get a whole bunch of variations of the Julia fractal, animating over time.
 
-    ![Julia](https://github.gatech.edu/pages/cs3451f15/a4/img/julia-z2.png)
+    ![Julia](https://github.com/amolpatel/Shaders/blob/master/img/julia-z2.png)
 	
   3. Julia set fractal ```z(n+1) = z(n)^6 + c, where c = (0, sin(time)/2.0 + 0.5)```
 	
@@ -43,7 +43,7 @@ Vertex and fragment shaders are typically used together in pairs, as a *shader p
 	
 	Note that ```z^6``` is just computed as the complex multiplication ```z * z * z * z * z * z```, which is easy to write with a for-loop.
 
-    ![Julia](https://github.gatech.edu/pages/cs3451f15/a4/img/julia-z6.png)
+    ![Julia](https://github.com/amolpatel/Shaders/blob/master/img/julia-z6.png)
 	
 2. **Transparency (fragment shader)**
 
